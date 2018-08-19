@@ -1,5 +1,7 @@
 package recfun
 
+import scala.annotation.tailrec
+
 object Main {
   def main(args: Array[String]) {
 //    println("Pascal's Triangle")
@@ -8,8 +10,13 @@ object Main {
 //        print(pascal(col, row) + " ")
 //      println()
 //    }
-    println("balance check [())(] - " + balance("())(".toList))
-//    balance("())(".toList)
+//    println("balance check [())(] - " + balance("())(".toList))
+//    println("Facrotial for number [6] - " + factorial(6))
+    println("Sum of numbers from  [1-6] - " + sum(x => x)(1, 6))
+    println("Sum of squared numbers from  [1-6] - " + sum(x => x * x)(1, 6))
+    println("Sum of cube numbers from  [1-6] - " + sum(x => x * x * x)(1, 6))
+    println("Sum of factorial numbers from  [1-6] - " + sum(factorial)(1, 6))
+
   }
 
   /**
@@ -53,5 +60,25 @@ object Main {
       count(money, coins.length -1)
     }
 
+  /**
+    * Factorial tail recursive
+     */
+    def factorial(n: Int): Int = {
+      @tailrec
+      def tailRec(x: Int, result: Int): Int =
+        if(x == 1) result
+        else tailRec(x -1 , result * x)
+      tailRec(n, 1)
+    }
 
+  /**
+    * sum range of numbers tail recursive
+    */
+    def sum(f: Int => Int)(a: Int, b: Int): Int = {
+      def loop(a: Int, acc: Int): Int = {
+        if(a > b) acc
+        else loop(a+1, acc + f(a))
+      }
+      loop(a, 0)
+    }
   }
