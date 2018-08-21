@@ -1,3 +1,11 @@
+###higher order Functions
+###function currying
+###Sample scala problems
+    Parenthesis balancing
+    Print Pascal triangle
+    Count change
+###Sample Java problems
+
 ### Implement with plain recursion
     Sum of numbers
     Sum of square of numbers
@@ -8,11 +16,7 @@
 ### Change the recursion for factorial to tail recursion using Tri Function  
 ### Tail Recursion demo :-      
 
-
-
-
-	4a. head Recursion 
-
+	Head Recursion 
 
 		factorial(5)
 		5 * factorial(4)
@@ -28,7 +32,7 @@
 		120
 
 
-	4b. Tail Recursion 
+	Tail Recursion 
 
 		factorialTailRec(5,1)
 		factorialTailRec(4,5)
