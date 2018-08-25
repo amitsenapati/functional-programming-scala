@@ -1,3 +1,4 @@
+####Coursera Scala Course weekly assignments
 ###higher order Functions
 ###function currying
 ###Sample scala problems
