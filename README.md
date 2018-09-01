@@ -1,4 +1,5 @@
-####Coursera Scala Course weekly assignments
+####Coursera Scala Functional programming Principles Course weekly assignments
+####Coursera Scala Objects Weeke 3
 ###higher order Functions
 ###function currying
 ###Sample scala problems
