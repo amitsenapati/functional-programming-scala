@@ -1,4 +1,4 @@
-name := course.value + "-" + assignment.value
+//name := course.value + "-" + assignment.value
 
 scalaVersion := "2.11.12"
 
@@ -13,5 +13,5 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 // include the common dir
 commonSourcePackages += "common"
 
-courseId := "bRPXgjY9EeW6RApRXdjJPw"
+//courseId := "bRPXgjY9EeW6RApRXdjJPw"
 
