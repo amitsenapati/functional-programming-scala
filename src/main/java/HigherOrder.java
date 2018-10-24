@@ -3,6 +3,12 @@ import java.util.function.Function;
 
 public class HigherOrder {
 
+    @FunctionalInterface
+    interface TriFunction<A,B,C,R> {
+
+        R apply(A a, B b, C c);
+    }
+
     public static void main(String[] args){
         System.out.println("sum of numbers - " + sumOfInt(1,6));
         System.out.println("sum of Square of numbers - " + sumOfSqrInt(1,6));

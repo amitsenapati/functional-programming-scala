@@ -1,3 +1,11 @@
+####Coursera Scala Parallel programming weekly assignments
+    Run horizontal splitting version runMain scalashop.HorizontalBoxBlurRunner
+    Run vertical splitting version runMain scalashop.VerticalBoxBlurRunner
+    Run Scala Shop version runMain scalashop.ScalaShop
+#####More Details
+
+    https://www.coursera.org/learn/parprog1/programming/NeGTv/parallel-box-blur-filter
+
 ####Coursera Scala Functional programming Principles Course weekly assignments
 ####Coursera Scala Pattern matching Week 4
 ####Coursera Scala Objects Week 3
