@@ -3,9 +3,12 @@
     Run vertical splitting version runMain scalashop.VerticalBoxBlurRunner
     Run Scala Shop version runMain scalashop.ScalaShop
 #####More Details
-
     https://www.coursera.org/learn/parprog1/programming/NeGTv/parallel-box-blur-filter
 
+#####Coursera Scala Parallel Programming Week 3 Assignments
+    Programming Assignments - K Means
+    https://www.coursera.org/learn/parprog1/programming/akLxD/k-means
+    
 ####Coursera Scala Functional programming Principles Course weekly assignments
 ####Coursera Scala Pattern matching Week 4
 ####Coursera Scala Objects Week 3
