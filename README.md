@@ -9,6 +9,11 @@
     Programming Assignments - K Means
     https://www.coursera.org/learn/parprog1/programming/akLxD/k-means
     
+#####Coursera Scala Parallel Programming Week 4 Assignments
+    Barnes Hut Simulation
+    https://www.coursera.org/learn/parprog1/programming/xGkV0/barnes-hut-simulation
+    
+    
 ####Coursera Scala Functional programming Principles Course weekly assignments
 ####Coursera Scala Pattern matching Week 4
 ####Coursera Scala Objects Week 3
